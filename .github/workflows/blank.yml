@@ -95,9 +95,9 @@ jobs:
         AUTHOR: "John Doe"
       run: |
         artifactName=$(ls *.jar | head -1)
-        mvn deploy -DmuleDeploy -Ddeployment.name="greetings-acm3105" \
+        mvn deploy -DmuleDeploy -Ddeployment.name="greetings-acm31052" \
         -Dusername=${{ secrets.ANYPOINT_USERNAME }} \
-        -Dpassword=${{ secrets.ANYPOINT_PASSWORD }} 
+        -Dpassword=${{ secrets.ANYPOINT_PASSWORD }} -Dmessage=" Andres, this property was set at Github ACtions"
         
         
         
