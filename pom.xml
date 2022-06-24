@@ -61,7 +61,7 @@
 					<cloudHubDeployment>
 					    <!-- Values are fixed for simplicity, change them to properties/parameters instead -->
 						<uri>https://anypoint.mulesoft.com</uri>
-						<businessGroupId>67f3556c-e04f-465e-a2d0-085d6f34bd2a</businessGroupId>
+						<businessGroupId>36124fc7-bd49-4aea-9e7c-c285aa862346</businessGroupId>
 						<environment>Sandbox</environment>
 						<region>us-east-2</region>
 						<muleVersion>4.4.0</muleVersion>
@@ -71,7 +71,7 @@
 						<objectStoreV2>true</objectStoreV2>
 						<persistentQueues>false</persistentQueues>
 						<deploymentTimeout>600000</deploymentTimeout>
-						<applicationName>${deployment.name}</applicationName>
+						<applicationName>greetings-june24acm</applicationName>
 						<!-- Authentication to do the deployment -->
 						<username>${username}</username>
 						<password>${password}</password>
